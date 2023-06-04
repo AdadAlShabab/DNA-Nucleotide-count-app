@@ -6,7 +6,7 @@ from PIL import Image
 ######################
 # Page Title
 ######################
-st.set_page_onfig(page_title='DNA Nucleotide Count App")
+st.set_page_config(page_title='DNA Nucleotide Count App",layout='wide')
 image = Image.open('dna-logo.jpg')
 
 st.image(image, use_column_width=True)
